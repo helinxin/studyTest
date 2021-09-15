@@ -28,6 +28,7 @@ public class YzBlockingQuery {
             new NullPointerException();
         }
 
+        //开始新学习
         tab = new Object[tabCount];
         notEmpty = reentrantLock.newCondition();
         notFull = reentrantLock.newCondition();
